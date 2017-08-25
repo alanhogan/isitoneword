@@ -3,12 +3,15 @@ import Phrase from './Phrase.js';
 
 import data from './phrases.json';
 
-const phrase = data.phrases.catchup;
+const phrases = data.phrases;
 
 class Styleguide extends Component {
   render() {
     return (
-      <Phrase phrase={phrase} />
+      <div>
+        <Phrase phrase={phrases.catchup} />
+        <Phrase phrase={phrases.login} />
+      </div>
     );
   }
 }

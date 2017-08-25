@@ -26,6 +26,13 @@ class Phrase extends Component {
     return (
       <section>
         <heading>“{phrase.valid[0].phrase}” is {phrase.oneWord} one word.</heading>
+        {
+          phrase.illustrations && phrase.illustrations.length > 0
+          ?
+          <img src={`${process.env.PUBLIC_URL}/img/${phrase.illustrations[0]}`}
+            className="" alt={`Illustration for ${phrase.valid[0].phrase}`} />
+          : null
+        }
         <ul className="">
           {phrase.valid.map(function(validObj, i){
             return (<li key={i}>

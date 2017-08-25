@@ -10,6 +10,17 @@
       "hyphenated": "sometimes",
       "notes": "Usually this phrase appears as a verb: “We need to catch up,” “They spent the afternoon catching up.” As a verb, “catch up” is always two words. It can also be used as a noun (“Let’s schedule a catch-up”), such as in the idomatic phrase “playing catch-up.” In this usage the phrase should be hyphenated, but some dictionaries note that this noun can also appear as one word.",
       "illustrations": ["catchup.png"]
+    },
+    "login": {
+      "valid": [
+        {"phrase": "log in", "pos": "v"},
+        {"phrase": "login", "pos": "n"}
+      ],
+      "twoWords": "usually",
+      "oneWord": "sometimes",
+      "hyphenated": "never",
+      "notes": "In user interfaces, this phrase should almost always appear as a verb: “Log in.” This is because buttons (and menu items) are typically phrased as imperative sentences — they are commands! (Languages other than English have different conventions.) Implicitly, such commands start with “You”: “(You) log in!” We can think of these are commands given to the computer. By this logic, “log in” used in commands such as “Log in with Facebook” appears as a verb, so it must appear as two words. ¶ Login as one word is a noun, so this usage is more rare. An administrator tool may show when users logged in; this would be a list of logins. Similarly, we can talk about users have a hard time completing login, but it would often be more natural to use the verb form, or even the adjective: “The user couldn’t find the log-in page. He couldn’t log in.”",
+      "illustrations": []
     }
   }
 }

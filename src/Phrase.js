@@ -1,6 +1,53 @@
 import React, { Component } from 'react';
-// import logo from './img/catchup.png';
-// import './App.css';
+import { createComponent } from 'react-fela'
+
+const headingStyle = () => {
+  return {
+    fontWeight: 600,
+    color: "#555",
+    fontSize: "3.2rem",
+  };
+};
+
+const phraseStyle = () => {
+  return {
+    fontWeight: 700,
+    color: "#444",
+    fontSize: "2rem",
+  };
+};
+
+
+const posStyle = () => {
+  return {
+    fontWeight: 500,
+    fontStyle: "italic",
+    color: "#666"
+  };
+};
+
+const variantWithPOSStyle = () => {
+  return {
+    listStyleType: "none",
+    textIndent: 0,
+    paddingLeft: 0,
+    fontSize: "1.6rem"
+  };
+};
+
+const variantsStyle = () => {
+  return {
+    marginLeft: 0,
+    paddingLeft: 0,
+    listStyleType: "none",
+  };
+};
+
+const Heading = createComponent(headingStyle, 'header');
+const PhraseVariant = createComponent(phraseStyle, 'span');
+const POS = createComponent(posStyle, 'span');
+const VariantWithPOS = createComponent(variantWithPOSStyle, 'li');
+const Variants = createComponent(variantsStyle, 'ul');
 
 function longerPos(pos) {
   switch (pos) {
@@ -25,7 +72,7 @@ class Phrase extends Component {
 
     return (
       <section>
-        <heading>“{phrase.valid[0].phrase}” is {phrase.oneWord} one word.</heading>
+        <Heading>“{phrase.valid[0].phrase}” is {phrase.oneWord} one word.</Heading>
         {
           phrase.illustrations && phrase.illustrations.length > 0
           ?
@@ -33,15 +80,15 @@ class Phrase extends Component {
             className="" alt={`Illustration for ${phrase.valid[0].phrase}`} />
           : null
         }
-        <ul className="">
+        <Variants>
           {phrase.valid.map(function(validObj, i){
-            return (<li key={i}>
-              <span>{validObj.phrase}</span>
+            return (<VariantWithPOS key={i}>
+              <PhraseVariant>{validObj.phrase}</PhraseVariant>
               {" "}
-              <span>{longerPos(validObj.pos)}</span>
-            </li>)
+              <POS>{longerPos(validObj.pos)}</POS>
+            </VariantWithPOS>)
           })}
-        </ul>
+        </Variants>
         <p>{phrase.notes}</p>
       </section>
     );

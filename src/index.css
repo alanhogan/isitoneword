@@ -1,5 +1,9 @@
 body {
   margin: 0;
   padding: 0 2.5vw;
-  font-family: sans-serif;
+  font-family: system-ui, sans-serif;
+}
+
+img {
+  max-width: 100%;
 }

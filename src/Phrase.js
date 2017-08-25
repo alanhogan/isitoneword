@@ -1,10 +1,25 @@
 import React, { Component } from 'react';
 import { createComponent } from 'react-fela'
 
+const palatino = 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif';
+
+const sectionStyle = () => {
+  return {
+    margin: "2rem 0",
+
+    // clearfix
+    "::after": {
+      content: "''",
+      display: "table",
+      clear: "both",
+    }
+  };
+};
+
 const headingStyle = () => {
   return {
-    fontWeight: 600,
-    color: "#555",
+    fontWeight: 300,
+    color: "#222",
     fontSize: "3.2rem",
   };
 };
@@ -20,9 +35,12 @@ const phraseStyle = () => {
 
 const posStyle = () => {
   return {
-    fontWeight: 500,
+    display: 'inline-block',
+    fontWeight: 600,
     fontStyle: "italic",
-    color: "#666"
+    color: "#666",
+    paddingLeft: "0.2em",
+    fontFamily: palatino,
   };
 };
 
@@ -31,7 +49,8 @@ const variantWithPOSStyle = () => {
     listStyleType: "none",
     textIndent: 0,
     paddingLeft: 0,
-    fontSize: "1.6rem"
+    fontSize: "1.6rem",
+    lineHeight: "1.4",
   };
 };
 
@@ -43,11 +62,32 @@ const variantsStyle = () => {
   };
 };
 
+const notesStyle = () => {
+  return {
+    fontSize: "1.1rem",
+    marginLeft: "4rem",
+    maxWidth: "40em",
+    fontFamily: palatino,
+    lineHeight: "1.8",
+  };
+};
+
+const floatedImageStyle = () => {
+  return {
+    float: "right",
+    marginLeft: "2rem",
+    maxWidth: "35%",
+  };
+};
+
+const PhraseAsSection = createComponent(sectionStyle, 'section');
 const Heading = createComponent(headingStyle, 'header');
 const PhraseVariant = createComponent(phraseStyle, 'span');
 const POS = createComponent(posStyle, 'span');
 const VariantWithPOS = createComponent(variantWithPOSStyle, 'li');
 const Variants = createComponent(variantsStyle, 'ul');
+const Notes = createComponent(notesStyle, 'p');
+const FloatedImage = createComponent(floatedImageStyle);
 
 function longerPos(pos) {
   switch (pos) {
@@ -71,13 +111,13 @@ class Phrase extends Component {
     const phrase = this.props.phrase;
 
     return (
-      <section>
+      <PhraseAsSection>
         <Heading>“{phrase.valid[0].phrase}” is {phrase.oneWord} one word.</Heading>
         {
           phrase.illustrations && phrase.illustrations.length > 0
           ?
-          <img src={`${process.env.PUBLIC_URL}/img/${phrase.illustrations[0]}`}
-            className="" alt={`Illustration for ${phrase.valid[0].phrase}`} />
+          <FloatedImage><img src={`${process.env.PUBLIC_URL}/img/${phrase.illustrations[0]}`}
+            className="" alt={`Illustration for ${phrase.valid[0].phrase}`} /></FloatedImage>
           : null
         }
         <Variants>
@@ -89,8 +129,8 @@ class Phrase extends Component {
             </VariantWithPOS>)
           })}
         </Variants>
-        <p>{phrase.notes}</p>
-      </section>
+        <Notes>{phrase.notes}</Notes>
+      </PhraseAsSection>
     );
   }
 }

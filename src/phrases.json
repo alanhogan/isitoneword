@@ -21,6 +21,17 @@
       "hyphenated": "never",
       "notes": "In user interfaces, this phrase should almost always appear as a verb: “Log in.” This is because buttons (and menu items) are typically phrased as imperative sentences — they are commands! (Languages other than English have different conventions.) Implicitly, such commands start with “You”: “(You) log in!” We can think of these as commands given to the computer. By this logic, “log in” used in commands such as “Log in with Facebook” appears as a verb, so it must appear as two words. ¶ Login as one word is a noun, so this usage is more rare. An administrator tool may show when users logged in; this would be a list of logins. Similarly, we can talk about users having a hard time completing login, but it would often be more natural to use the verb form, or even the adjective: “The user couldn’t find the log-in page. He couldn’t log in.”",
       "illustrations": []
+    },
+    "hangout": {
+      "valid": [
+        {"phrase": "hang out", "pos": "v"},
+        {"phrase": "hangout", "pos": "n"}
+      ],
+      "twoWords": "usually",
+      "oneWord": "rarely",
+      "hyphenated": "never",
+      "notes": "Hanging out, to hang out, to have hung out: They’re verbs! Verb phrases like this always keep their space, so you don’t want “to hangout,” you want “to hang out.” The noun form isn’t as common and it refers to a frequent haunt, a favorite location in which to hang out. “A lot of my favorite hangouts are dives.”",
+      "illustrations": []
     }
   }
 }

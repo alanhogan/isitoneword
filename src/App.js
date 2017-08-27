@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Styleguide from './Styleguide.js';
+import PhraseList from './PhraseList.js';
 import { createComponent } from 'react-fela'
 
 const headerStyle = () => {
@@ -31,7 +31,7 @@ const footerStyle = () => {
 };
 
 const Header = createComponent(headerStyle, 'h1');
-const GitHubLink = createComponent(ghlStyle, 'a', ['href', 'title', 'target']);
+const DeëmphasizedLink = createComponent(ghlStyle, 'a', ['href', 'title', 'target']);
 const Footer = createComponent(footerStyle, 'footer');
 
 class App extends Component {
@@ -41,9 +41,10 @@ class App extends Component {
         <Header>
           Is it one word?
         </Header>
-        <Styleguide />
+        <PhraseList />
         <Footer>
-          You can improve this website. <GitHubLink href="https://github.com/alanhogan/isitoneword">It’s open source!</GitHubLink>
+          By <DeëmphasizedLink href="https://alanhogan.com/">Alan Hogan</DeëmphasizedLink> •
+          You can improve this website. <DeëmphasizedLink href="https://github.com/alanhogan/isitoneword">It’s open source!</DeëmphasizedLink>
         </Footer>
       </div>
     );

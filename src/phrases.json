@@ -32,6 +32,17 @@
       "hyphenated": "never",
       "notes": "Hanging out, to hang out, to have hung out: They’re verbs! Verb phrases like this always keep their space, so you don’t want “to hangout,” you want “to hang out.” The noun form isn’t as common and it refers to a frequent haunt, a favorite location in which to hang out. “A lot of my favorite hangouts are dives.”",
       "illustrations": []
+    },
+    "someway": {
+      "valid": [
+        {"phrase": "some way", "pos": "n"},
+        {"phrase": "someway", "pos": "adv"}
+      ],
+      "twoWords": "usually",
+      "oneWord": "rarely",
+      "hyphenated": "never",
+      "notes": "“There must be some way to tell these two spellings apart.” Indeed, there is a way! “some way” is a noun phrase. You can ask, “Is there a way?” — Yes, there is some way. “Surely, there is some way to do this that does not involve a fax machine.” However, “someway” is an adverb. This means it describes an action. This usage is less common and usually comes at the beginning or end of the sentence: “The couple eventually managed to find peace, someway.” In this form, “someway” is often followed by — or could be replaced by — its twin, “somehow.” “Someway, somehow, I’m going to make my way to New York.”",
+      "illustrations": []
     }
   }
 }

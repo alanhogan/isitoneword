@@ -6,7 +6,10 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-fela'
 
-const renderer = createRenderer();
+const renderer = createRenderer({
+  selectorPrefix: 'f_',
+  filterClassName: className => className !== 'ad'
+});
 
 ReactDOM.render(<Provider renderer={renderer}><App /></Provider>, document.getElementById('root'));
 registerServiceWorker();

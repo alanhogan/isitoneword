@@ -93,6 +93,8 @@ function longerPos(pos) {
   switch (pos) {
     case 'n':
       return 'noun';
+    case 'pn':
+      return 'pronoun';
     case 'v':
       return 'verb';
     case 'adv':
@@ -105,6 +107,16 @@ function longerPos(pos) {
       return pos;
   }
 }
+
+function partsOfSpeech(arrayOrStr) {
+  if (typeof arrayOrStr !== "string") {
+    return partsOfSpeech(arrayOrStr.map(longerPos).join(", "));
+  }
+  else {
+    return <POS>{longerPos(arrayOrStr)}</POS>;
+  }
+}
+
 
 class Phrase extends Component {
   render() {
@@ -125,7 +137,7 @@ class Phrase extends Component {
             return (<VariantWithPOS key={i}>
               <PhraseVariant>{validObj.phrase}</PhraseVariant>
               {" "}
-              <POS>{longerPos(validObj.pos)}</POS>
+              {partsOfSpeech(validObj.pos)}
             </VariantWithPOS>)
           })}
         </Variants>

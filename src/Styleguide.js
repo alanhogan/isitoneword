@@ -11,6 +11,7 @@ class Styleguide extends Component {
       <div>
         <Phrase phrase={phrases.catchup} />
         <Phrase phrase={phrases.login} />
+        <Phrase phrase={phrases.anymore} />
       </div>
     );
   }

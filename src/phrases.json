@@ -30,7 +30,7 @@
       "twoWords": "usually",
       "oneWord": "rarely",
       "hyphenated": "never",
-      "notes": "Hanging out, to hang out, to have hung out: They’re verbs! Verb phrases like this always keep their space, so you don’t want “to hangout,” you want “to hang out.” The noun form isn’t as common and it refers to a frequent haunt, a favorite location in which to hang out. “A lot of my favorite hangouts are dives.”",
+      "notes": "Hanging out, to hang out, to have hung out: They’re verbs! Verb phrases like this always keep their space, so you don’t want “to hangout,” you want “to hang out.” “Let’s hang out with the guy who started IsItOneWord.com!” The noun form isn’t as common and it refers to a frequent haunt, a favorite location in which to hang out. “A lot of my favorite hangouts are dives.”",
       "illustrations": []
     },
     "someway": {
@@ -41,7 +41,18 @@
       "twoWords": "usually",
       "oneWord": "rarely",
       "hyphenated": "never",
-      "notes": "“There must be some way to tell these two spellings apart.” Indeed, there is a way! “some way” is a noun phrase. You can ask, “Is there a way?” — Yes, there is some way. “Surely, there is some way to do this that does not involve a fax machine.” However, “someway” is an adverb. This means it describes an action. This usage is less common and usually comes at the beginning or end of the sentence: “The couple eventually managed to find peace, someway.” In this form, “someway” is often followed by — or could be replaced by — its twin, “somehow.” “Someway, somehow, I’m going to make my way to New York.”",
+      "notes": "“There must be some way to tell these two spellings apart.” Indeed, there is a way! “Some way” is a noun phrase. You can ask, “Is there a way?” — Yes, there is some way. “Surely, there is some way to do this that does not involve a fax machine.” However, “someway” is an adverb. This means it describes an action. This usage is less common and usually comes at the beginning or end of the sentence: “The couple eventually managed to find peace, someway.” In this form, “someway” is often followed by — or could be replaced by — its twin, “somehow.” “Someway, somehow, I’m going to make my way to New York.”",
+      "illustrations": []
+    },
+    "anymore": {
+      "valid": [
+        {"phrase": "any more", "pos": ["pn", "adj", "adv"]},
+        {"phrase": "anymore", "pos": "adv"}
+      ],
+      "twoWords": "sometimes",
+      "oneWord": "sometimes",
+      "hyphenated": "never",
+      "notes": "“Any more” is a versatile little phrase. It can be used as many parts of speech. It can be used in place of a noun phrase (as a pronoun),  If you are asking (or stating) if any more of something exist, then you are dealing with the pronoun or adjective forms — not the adverbial “anymore” form. That should make sense because nouns are things. Adverbs are a little trickier because they can modify verbs (hence the name), but they can also modify adjectives. In the sentence “If I were any more relaxed, I’d melt into this chair,” “relaxed” is acting as an adjective, and “any more” is modifying “relaxed,” which makes it an adverb. When “anymore” is a verb-modifying adverb, “anymore” is usually one word (although it can appear as two in this case, as well). In this case, “anymore” refers to the continuation of some action or state of being: “I won’t be working here anymore.” Be careful: “I don’t want to do anymore driving” is incorrect because “driving” here is a noun (technically a gerund), even though it comes from what used to be a verb (“to drive”). The correct usage would be “I don’t want to do any more driving.” (The verb in that sentence is “want.” Watch what happens when we reformulate the sentence so that we modify the verb “want” instead: “I don’t want to drive anymore.” Now it’s not “driving” that is being modified; it’s the action of wanting which is no longer being extended.) My dictionary notes that the verb-modifying adverb version usually appears “with a negative or in question form,” which seems like a helpful hint: “I can’t stand these misspellings anymore!” “Are you going to rollerskate anymore?” Of course, many questions need the form with the space: “I want to put this cheese back in the fridge. Do you want any more?”",
       "illustrations": []
     }
   }

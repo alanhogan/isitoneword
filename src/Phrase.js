@@ -117,6 +117,10 @@ function partsOfSpeech(arrayOrStr) {
   }
 }
 
+function capitalize(str) {
+  return `${str.substring(0,1).toUpperCase()}${str.substring(1)}`;
+}
+
 
 class Phrase extends Component {
   render() {
@@ -124,7 +128,7 @@ class Phrase extends Component {
 
     return (
       <PhraseAsSection>
-        <Heading>“{phrase.valid[0].phrase}” is {phrase.oneWord} one word.</Heading>
+        <Heading>“{capitalize(phrase.valid[0].phrase)}” is {phrase.oneWord} one word.</Heading>
         {
           phrase.illustrations && phrase.illustrations.length > 0
           ?

@@ -76,6 +76,15 @@
       "hyphenated": "never",
       "notes": "This is one of my favorite misspellings because the two usages are essentially opposites! If you are “a part of the group,” you belong to it; you’re included. In contrast, if you are “apart,” you are separate, off to the side, excepted. Those two meanings are worlds apart! Here’s a tip: Ask yourself if you could insert a word (an adjective) between “a” and “part.” “A part of the work is…” becomes “A crucial part of the work,” but “We all jumped in, apart from Robert” doesn’t make sense anymore if you add a word in the middle of “apart.”",
       "illustrations": []
+    },
+    "alot": {
+      "valid": [
+        {"phrase": "a lot", "pos": "n"}
+      ],
+      "twoWords": "always",
+      "oneWord": "never",
+      "hyphenated": "never",
+      "notes": "A lot of people make this mistake, but “alot” is not a word. Easy! There’s no need to spend a lot of words explaining the difference."
     }
   }
 }

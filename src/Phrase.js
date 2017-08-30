@@ -87,6 +87,7 @@ const POS = createComponent(posStyle, 'span');
 const VariantWithPOS = createComponent(variantWithPOSStyle, 'li');
 const Variants = createComponent(variantsStyle, 'ul');
 const Notes = createComponent(notesStyle, 'p');
+const SeeAlso = createComponent(notesStyle, 'div');
 const FloatedImage = createComponent(floatedImageStyle);
 
 function longerPos(pos) {
@@ -121,6 +122,14 @@ function capitalize(str) {
   return `${str.substring(0,1).toUpperCase()}${str.substring(1)}`;
 }
 
+function links(links) {
+  if (!links || !links.map) return null;
+
+  return <SeeAlso>See also: <ul>{links.map(function(link) {
+    return <li><a href={link.url}>{link.title}</a></li>
+  })}</ul></SeeAlso>;
+}
+
 
 class Phrase extends Component {
   render() {
@@ -146,6 +155,7 @@ class Phrase extends Component {
           })}
         </Variants>
         <Notes>{phrase.notes}</Notes>
+        {links(phrase.links)}
       </PhraseAsSection>
     );
   }

@@ -84,7 +84,29 @@
       "twoWords": "always",
       "oneWord": "never",
       "hyphenated": "never",
-      "notes": "A lot of people make this mistake, but “alot” is not a word. Easy! There’s no need to spend a lot of words explaining the difference."
+      "notes": "A lot of people make this mistake, but “alot” is not a word. Easy! There’s no need to spend a lot of words explaining the difference.",
+      "links": [
+        {
+          "url": "https://hyperboleandahalf.blogspot.com/2010/04/alot-is-better-than-you-at-everything.html",
+          "title": "Allie invents a mythical creature named “Alot”"
+        }
+      ]
+    },
+    "everyday": {
+      "valid": [
+        {"phrase": "every day", "pos": ["n", "adv"]},
+        {"phrase": "everyday", "pos": "adj"}
+      ],
+      "twoWords": "usally",
+      "oneWord": "rarely",
+      "hyphenated": "never",
+      "notes": "I see these phrases confused often (but not every day). “Everyday” is an adjective and it describes something commonplace or which could be seen or used every day: “This ain’t your everyday, run-of-the-mill website, pal.” In contrast, the adverbial phrase “every day” is two words, always! “I jog every day.” Sarah Nicholas has a great tip: She puts “single” between “every” and “day” to see if it still makes sense. If it does, she uses the two-word version. “‘I walk around the block every single day.’ That works. The two-word option is correct. Could I say, ‘My every single day dishes are not as pretty as my formal dishes’? No. That doesn’t work, so I need to use the one-word option, ‘everyday.’” It’s a great tip! Thanks for sharing, Sarah.",
+      "links": [
+        {
+          "url": "http://www.everythingenglishblog.com/?p=621",
+          "title": "Sarah Nicholas’ page “Is it One Word or Two?”"
+        }
+      ]
     }
   }
 }

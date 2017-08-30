@@ -54,6 +54,28 @@
       "hyphenated": "never",
       "notes": "“Any more” is a versatile little phrase. It can be used as many parts of speech. It can be used in place of a noun phrase (as a pronoun),  If you are asking (or stating) if any more of something exist, then you are dealing with the pronoun or adjective forms — not the adverbial “anymore” form. That should make sense because nouns are things. Adverbs are a little trickier because they can modify verbs (hence the name), but they can also modify adjectives. In the sentence “If I were any more relaxed, I’d melt into this chair,” “relaxed” is acting as an adjective, and “any more” is modifying “relaxed,” which makes it an adverb. When “anymore” is a verb-modifying adverb, “anymore” is usually one word (although it can appear as two in this case, as well). In this case, “anymore” refers to the continuation of some action or state of being: “I won’t be working here anymore.” Be careful: “I don’t want to do anymore driving” is incorrect because “driving” here is a noun (technically a gerund), even though it comes from what used to be a verb (“to drive”). The correct usage would be “I don’t want to do any more driving.” (The verb in that sentence is “want.” Watch what happens when we reformulate the sentence so that we modify the verb “want” instead: “I don’t want to drive anymore.” Now it’s not “driving” that is being modified; it’s the action of wanting which is no longer being extended.) My dictionary notes that the verb-modifying adverb version usually appears “with a negative or in question form,” which seems like a helpful hint: “I can’t stand these misspellings anymore!” “Are you going to rollerskate anymore?” Of course, many questions need the form with the space: “I want to put this cheese back in the fridge. Do you want any more?”",
       "illustrations": []
+    },
+    "awhile": {
+      "valid": [
+        {"phrase": "a while", "pos": "n"},
+        {"phrase": "awhile", "pos": "adv"}
+      ],
+      "twoWords": "usually",
+      "oneWord": "sometimes",
+      "hyphenated": "never",
+      "notes": "These two similar phrases are commonly confused, but the difference is simple. “A while” is a noun, and “awhile” is an adverb. Which to use depends on where it appears in your sentence: You can “sit awhile” or “sit for a while.” If your usage modifies a verb, you should drop the space. If you use it as a noun, keep the space. Chances are, if you say “in a while,” “until a while [later],” or “after a while,” you need to use the version with the space, because prepositions introduce noun phrases.",
+      "illustrations": []
+    },
+    "apart": {
+      "valid": [
+        {"phrase": "a part", "pos": "n"},
+        {"phrase": "apart", "pos": ["adv", "adj"]}
+      ],
+      "twoWords": "sometimes",
+      "oneWord": "sometimes",
+      "hyphenated": "never",
+      "notes": "This is one of my favorite misspellings because the two usages are essentially opposites! If you are “a part of the group,” you belong to it; you’re included. In contrast, if you are “apart,” you are separate, off to the side, excepted. Those two meanings are worlds apart! Here’s a tip: Ask yourself if you could insert a word (an adjective) between “a” and “part.” “A part of the work is…” becomes “A crucial part of the work,” but “We all jumped in, apart from Robert” doesn’t make sense anymore if you add a word in the middle of “apart.”",
+      "illustrations": []
     }
   }
 }

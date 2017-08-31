@@ -107,6 +107,15 @@
           "title": "Sarah Nicholas’ page “Is it One Word or Two?”"
         }
       ]
+    },
+    "noone": {
+      "valid": [
+        {"phrase": "no one", "pos": "n"}
+      ],
+      "twoWords": "always",
+      "oneWord": "never",
+      "hyphenated": "never",
+      "notes": "No one should be confused about this one. It is always two words."
     }
   }
 }

@@ -116,6 +116,16 @@
       "oneWord": "never",
       "hyphenated": "never",
       "notes": "No one should be confused about this one. It is always two words."
+    },
+    "setup": {
+      "valid": [
+        {"phrase": "set up", "pos": "v"},
+        {"phrase": "setup", "pos": "n"}
+      ],
+      "twoWords": "usually",
+      "oneWord": "sometimes",
+      "hyphenated": "never",
+      "notes": "Setting up is getting ready. Friends, we’re looking at a verb phrase. Usually, there is an object, which could be a person or thing. “Try to set up your email account yourself.” Setting up can be reflexive, meaning that a person or thing is setting up himself, herself, or itself. “I’m all set up” would indicate that the speaker has (reflexively) prepared himself. “We set up the tent” isn’t reflexive, because the setting up has been done to the tent by someone other than the tent. That sounds strange, but with technology, we can say things like “The wireless access point is setting itself up.” ¶ A setup, on the other hand, is a noun. A dictionary notes that this word is informal, but it is nevertheless common. “I like my setup just the way it is. With my room arranged like this, I can enjoy a view of the park from my desk.” A setup is the way in which something has been arranged, organized, or planned — or, even more informally, a scheme or scam intended to deceive or defraud. “It wasn’t me, Chief! It’s a setup! I’ve been framed!” ¶ To determine whether “set up” or “setup” is correct, ask yourself whether someone or something is being set up, or if the setup is the thing itself. If you can replace “setup” with “arrangement” or “trick,” it should be one word. If “set up” is preceded by auxiliar verbs like “has been,” “is,” or “has,” then it should be two words."
     }
   }
 }

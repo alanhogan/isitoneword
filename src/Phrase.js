@@ -67,7 +67,7 @@ const variantsStyle = () => {
 const notesStyle = () => {
   return {
     fontSize: "1.1rem",
-    marginLeft: "4rem",
+    marginLeft: "2.5rem",
     maxWidth: "40em",
     fontFamily: palatino,
     lineHeight: "1.8",

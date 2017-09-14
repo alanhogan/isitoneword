@@ -2,46 +2,58 @@
   "phrases": {
     "catchup": {
       "valid": [
-        {"phrase": "catch up", "pos": "v"},
-        {"phrase": "catch-up", "pos": "n"}
+        {"phrase": "catch up", "pos": "v",
+          "notes": "Usually this phrase appears as a verb: “We need to catch up,” “They spent the afternoon catching up.” As a verb, “catch up” is always two words."
+        },
+        {"phrase": "catch-up", "pos": "n",
+          "notes": "This phrase can also be used as a noun (“Let’s schedule a catch-up”), such as in the idomatic phrase “playing catch-up.” In this usage the phrase should be hyphenated, but some dictionaries note that this noun can also appear as one word."
+        }
       ],
       "twoWords": "usually",
       "oneWord": "never",
       "hyphenated": "sometimes",
-      "notes": "Usually this phrase appears as a verb: “We need to catch up,” “They spent the afternoon catching up.” As a verb, “catch up” is always two words. It can also be used as a noun (“Let’s schedule a catch-up”), such as in the idomatic phrase “playing catch-up.” In this usage the phrase should be hyphenated, but some dictionaries note that this noun can also appear as one word.",
       "illustrations": ["catchup-sm.jpg"]
     },
     "login": {
       "valid": [
-        {"phrase": "log in", "pos": "v"},
-        {"phrase": "login", "pos": "n"}
+        {"phrase": "log in", "pos": "v",
+          "notes": "In user interfaces, this phrase should almost always appear as a verb: “Log in.” This is because buttons (and menu items) are typically phrased as imperative sentences — they are commands! (Languages other than English have different conventions.) Implicitly, such commands start with “You”: “(You) log in!” We can think of these as commands given to the computer. By this logic, “log in” used in commands such as “Log in with Facebook” appears as a verb, so it must appear as two words."
+        },
+        {"phrase": "login", "pos": "n",
+          "notes": "Login as one word is a noun, so this usage is more rare. An administrator tool may show when users logged in; this would be a list of logins. Similarly, we can talk about users having a hard time completing login, but it would often be more natural to use the verb form, or even the adjective: “The user couldn’t find the log-in page. He couldn’t log in.”"
+        }
       ],
       "twoWords": "usually",
       "oneWord": "sometimes",
       "hyphenated": "never",
-      "notes": "In user interfaces, this phrase should almost always appear as a verb: “Log in.” This is because buttons (and menu items) are typically phrased as imperative sentences — they are commands! (Languages other than English have different conventions.) Implicitly, such commands start with “You”: “(You) log in!” We can think of these as commands given to the computer. By this logic, “log in” used in commands such as “Log in with Facebook” appears as a verb, so it must appear as two words. ¶ Login as one word is a noun, so this usage is more rare. An administrator tool may show when users logged in; this would be a list of logins. Similarly, we can talk about users having a hard time completing login, but it would often be more natural to use the verb form, or even the adjective: “The user couldn’t find the log-in page. He couldn’t log in.”",
       "illustrations": []
     },
     "hangout": {
       "valid": [
-        {"phrase": "hang out", "pos": "v"},
-        {"phrase": "hangout", "pos": "n"}
+        {"phrase": "hang out", "pos": "v",
+          "notes": "Hanging out, to hang out, to have hung out: They’re verbs! Verb phrases like this always keep their space, so you don’t want “to hangout,” you want “to hang out.” “Let’s hang out with the guy who started IsItOneWord.com!”"
+        },
+        {"phrase": "hangout", "pos": "n",
+          "notes": "The noun form isn’t as common and it refers to a frequent haunt, a favorite location in which to hang out. “A lot of my favorite hangouts are dives.”"
+        }
       ],
       "twoWords": "usually",
       "oneWord": "rarely",
       "hyphenated": "never",
-      "notes": "Hanging out, to hang out, to have hung out: They’re verbs! Verb phrases like this always keep their space, so you don’t want “to hangout,” you want “to hang out.” “Let’s hang out with the guy who started IsItOneWord.com!” The noun form isn’t as common and it refers to a frequent haunt, a favorite location in which to hang out. “A lot of my favorite hangouts are dives.”",
       "illustrations": []
     },
     "someway": {
       "valid": [
-        {"phrase": "some way", "pos": "n"},
-        {"phrase": "someway", "pos": "adv"}
+        {"phrase": "some way", "pos": "n",
+          "notes": "“There must be some way to tell these two spellings apart.” Indeed, there is a way! “Some way” is a noun phrase. You can ask, “Is there a way?” — Yes, there is some way. “Surely, there is some way to do this that does not involve a fax machine.”"
+        },
+        {"phrase": "someway", "pos": "adv",
+          "notes": "However, “someway” is an adverb. This means it describes an action. This usage is less common and usually comes at the beginning or end of the sentence: “The couple eventually managed to find peace, someway.” In this form, “someway” is often followed by — or could be replaced by — its twin, “somehow.” “Someway, somehow, I’m going to make my way to New York.”"
+        }
       ],
       "twoWords": "usually",
       "oneWord": "rarely",
       "hyphenated": "never",
-      "notes": "“There must be some way to tell these two spellings apart.” Indeed, there is a way! “Some way” is a noun phrase. You can ask, “Is there a way?” — Yes, there is some way. “Surely, there is some way to do this that does not involve a fax machine.” However, “someway” is an adverb. This means it describes an action. This usage is less common and usually comes at the beginning or end of the sentence: “The couple eventually managed to find peace, someway.” In this form, “someway” is often followed by — or could be replaced by — its twin, “somehow.” “Someway, somehow, I’m going to make my way to New York.”",
       "illustrations": []
     },
     "anymore": {
@@ -107,6 +119,29 @@
           "title": "Sarah Nicholas’ page “Is it One Word or Two?”"
         }
       ]
+    },
+    "noone": {
+      "valid": [
+        {"phrase": "no one", "pos": "n"}
+      ],
+      "twoWords": "always",
+      "oneWord": "never",
+      "hyphenated": "never",
+      "notes": "No one should be confused about this one. It is always two words."
+    },
+    "setup": {
+      "valid": [
+        {"phrase": "set up", "pos": "v",
+          "notes": "Setting up is getting ready. Friends, we’re looking at a verb phrase. Usually, there is an object, which could be a person or thing. “Try to set up your email account yourself.” Setting up can be reflexive, meaning that a person or thing is setting up himself, herself, or itself. “I’m all set up” would indicate that the speaker has (reflexively) prepared himself. “We set up the tent” isn’t reflexive, because the setting up has been done to the tent by someone other than the tent. That sounds strange, but with technology, we can say things like “The wireless access point is setting itself up.”"
+        },
+        {"phrase": "setup", "pos": "n",
+          "notes": "A setup, on the other hand, is a noun. A dictionary notes that this word is informal, but it is nevertheless common. “I like my setup just the way it is. With my room arranged like this, I can enjoy a view of the park from my desk.” A setup is the way in which something has been arranged, organized, or planned — or, even more informally, a scheme or scam intended to deceive or defraud. “It wasn’t me, Chief! It’s a setup! I’ve been framed!”"
+        }
+      ],
+      "twoWords": "usually",
+      "oneWord": "sometimes",
+      "hyphenated": "never",
+      "notes": "To determine whether “set up” or “setup” is correct, ask yourself whether someone or something is being set up, or if the setup is the thing itself. If you can replace “setup” with “arrangement,” “organization,” “entrapment,” or “ruse,” it should be one word. If “set up” is preceded by auxiliar verbs like “has been,” “is,” or “has,” then it should be two words."
     }
   }
 }

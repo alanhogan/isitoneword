@@ -151,10 +151,11 @@ class Phrase extends Component {
               <PhraseVariant>{validObj.phrase}</PhraseVariant>
               {" "}
               {partsOfSpeech(validObj.pos)}
+              {validObj.notes ? <Notes>{validObj.notes}</Notes> : ''}
             </VariantWithPOS>)
           })}
         </Variants>
-        <Notes>{phrase.notes}</Notes>
+        {phrase.notes ? <Notes>{phrase.notes}</Notes> : ''}
         {links(phrase.links)}
       </PhraseAsSection>
     );

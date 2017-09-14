@@ -142,6 +142,22 @@
       "oneWord": "sometimes",
       "hyphenated": "never",
       "notes": "To determine whether “set up” or “setup” is correct, ask yourself whether someone or something is being set up, or if the setup is the thing itself. If you can replace “setup” with “arrangement,” “organization,” “entrapment,” or “ruse,” it should be one word. If “set up” is preceded by auxiliar verbs like “has been,” “is,” or “has,” then it should be two words."
+    },
+    "startup": {
+      "valid": [
+        {"phrase": "start up", "pos": "v",
+          "notes": "To start up is to found a company or begin a venture of some sort. “We’re small, but we’re just starting up.” Computers also start up when they are powered on. An engine starts up when it turns over. The Rolling Stones’ hit song “Start Me Up,” which is decidedly not about computers, was used by Microsoft to promote Windows 95. (They skipped the lyric “You make a grown man cry.”)"
+        },
+        {"phrase": "start-up", "pos": ["n", "adj"],
+          "notes": "A start-up is a new company or business venture: “I am co-founding a start-up.” It can be an adjective, too: “I have acquired enough start-up capital to begin hiring.”"
+        },
+        {"phrase": "startup", "pos": "n",
+          "notes": "The technology start-up industry overwhelmingly prefers the single-word, non-hyphenated spelling, “startup,” when referring to young tech companies. Its usage replaces the hyphenated version entirely. (Despite frequent mis-use, however, the single-word form cannot replace the two-word verb form.)"
+        }
+      ],
+      "twoWords": "sometimes",
+      "oneWord": "sometimes",
+      "hyphenated": "sometimes"
     }
   }
 }

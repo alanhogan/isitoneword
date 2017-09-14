@@ -6,6 +6,7 @@ const palatino = 'Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqu
 const sectionStyle = () => {
   return {
     margin: "2rem 0",
+    paddingLeft: ".9rem", // Thx to overhanging leading quotes
 
     // clearfix
     "::after": {
@@ -21,6 +22,7 @@ const headingStyle = () => {
     fontWeight: 300,
     color: "#222",
     fontSize: "3.2rem",
+    textIndent: "-.38em", // Because they all start with a leading quote
   };
 };
 

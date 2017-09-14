@@ -1,0 +1,18 @@
+RewriteEngine 	On
+
+# FORCING HTTPS for some domains . . . 
+# i.e.  http://www.example.com/foo/ to https://www.example.com/foo/
+
+# Hosts:
+RewriteCond %{HTTP_HOST} ^(www\.)?(isitoneword\.com|isittwowords\.com)$ [NC]
+
+# If we receive a forwarded http request from a proxy...
+RewriteCond %{HTTP:X-Forwarded-Proto} =http [OR]
+
+# ...or just a plain old http request directly from the client
+RewriteCond %{HTTP:X-Forwarded-Proto} =""
+RewriteCond %{HTTPS} !=on
+
+RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [QSA,R=301,L]
+
+# END FORCING HTTPS

@@ -2,10 +2,14 @@
   "phrases": {
     "catchup": {
       "valid": [
-        {"phrase": "catch up", "pos": "v",
+        {
+          "phrase": "catch up",
+          "pos": "v",
           "notes": "Usually this phrase appears as a verb: “We need to catch up,” “They spent the afternoon catching up.” As a verb, “catch up” is always two words."
         },
-        {"phrase": "catch-up", "pos": "n",
+        {
+          "phrase": "catch-up",
+          "pos": "n",
           "notes": "This phrase can also be used as a noun (“Let’s schedule a catch-up”), such as in the idomatic phrase “playing catch-up.” In this usage the phrase should be hyphenated, but some dictionaries note that this noun can also appear as one word."
         }
       ],
@@ -16,10 +20,14 @@
     },
     "login": {
       "valid": [
-        {"phrase": "log in", "pos": "v",
+        {
+          "phrase": "log in",
+          "pos": "v",
           "notes": "In user interfaces, this phrase should almost always appear as a verb: “Log in.” This is because buttons (and menu items) are typically phrased as imperative sentences — they are commands! (Languages other than English have different conventions.) Implicitly, such commands start with “You”: “(You) log in!” We can think of these as commands given to the computer. By this logic, “log in” used in commands such as “Log in with Facebook” appears as a verb, so it must appear as two words."
         },
-        {"phrase": "login", "pos": "n",
+        {
+          "phrase": "login",
+          "pos": "n",
           "notes": "Login as one word is a noun, so this usage is more rare. An administrator tool may show when users logged in; this would be a list of logins. Similarly, we can talk about users having a hard time completing login, but it would often be more natural to use the verb form, or even the adjective: “The user couldn’t find the log-in page. He couldn’t log in.”"
         }
       ],
@@ -30,10 +38,14 @@
     },
     "hangout": {
       "valid": [
-        {"phrase": "hang out", "pos": "v",
+        {
+          "phrase": "hang out",
+          "pos": "v",
           "notes": "Hanging out, to hang out, to have hung out: They’re verbs! Verb phrases like this always keep their space, so you don’t want “to hangout,” you want “to hang out.” “Let’s hang out with the guy who started IsItOneWord.com!”"
         },
-        {"phrase": "hangout", "pos": "n",
+        {
+          "phrase": "hangout",
+          "pos": "n",
           "notes": "The noun form isn’t as common and it refers to a frequent haunt, a favorite location in which to hang out. “A lot of my favorite hangouts are dives.”"
         }
       ],
@@ -44,10 +56,14 @@
     },
     "someway": {
       "valid": [
-        {"phrase": "some way", "pos": "n",
+        {
+          "phrase": "some way",
+          "pos": "n",
           "notes": "“There must be some way to tell these two spellings apart.” Indeed, there is a way! “Some way” is a noun phrase. You can ask, “Is there a way?” — Yes, there is some way. “Surely, there is some way to do this that does not involve a fax machine.”"
         },
-        {"phrase": "someway", "pos": "adv",
+        {
+          "phrase": "someway",
+          "pos": "adv",
           "notes": "However, “someway” is an adverb. This means it describes an action. This usage is less common and usually comes at the beginning or end of the sentence: “The couple eventually managed to find peace, someway.” In this form, “someway” is often followed by — or could be replaced by — its twin, “somehow.” “Someway, somehow, I’m going to make my way to New York.”"
         }
       ],
@@ -58,19 +74,19 @@
     },
     "anymore": {
       "valid": [
-        {"phrase": "any more", "pos": ["pn", "adj", "adv"]},
-        {"phrase": "anymore", "pos": "adv"}
+        { "phrase": "any more", "pos": ["pn", "adj", "adv"] },
+        { "phrase": "anymore", "pos": "adv" }
       ],
       "twoWords": "sometimes",
       "oneWord": "sometimes",
       "hyphenated": "never",
-      "notes": "“Any more” is a versatile little phrase. It can be used as many parts of speech. It can be used in place of a noun phrase (as a pronoun),  If you are asking (or stating) if any more of something exist, then you are dealing with the pronoun or adjective forms — not the adverbial “anymore” form. That should make sense because nouns are things. Adverbs are a little trickier because they can modify verbs (hence the name), but they can also modify adjectives. In the sentence “If I were any more relaxed, I’d melt into this chair,” “relaxed” is acting as an adjective, and “any more” is modifying “relaxed,” which makes it an adverb. When “anymore” is a verb-modifying adverb, “anymore” is usually one word (although it can appear as two in this case, as well). In this case, “anymore” refers to the continuation of some action or state of being: “I won’t be working here anymore.” Be careful: “I don’t want to do anymore driving” is incorrect because “driving” here is a noun (technically a gerund), even though it comes from what used to be a verb (“to drive”). The correct usage would be “I don’t want to do any more driving.” (The verb in that sentence is “want.” Watch what happens when we reformulate the sentence so that we modify the verb “want” instead: “I don’t want to drive anymore.” Now it’s not “driving” that is being modified; it’s the action of wanting which is no longer being extended.) My dictionary notes that the verb-modifying adverb version usually appears “with a negative or in question form,” which seems like a helpful hint: “I can’t stand these misspellings anymore!” “Are you going to rollerskate anymore?” Of course, many questions need the form with the space: “I want to put this cheese back in the fridge. Do you want any more?”",
+      "notes": "“Any more” is a versatile little phrase. It can be used as many parts of speech. It can be used in place of a noun phrase (as a pronoun), or to modify a noun, verb, or adjective (as an adjective or adverb). If you are asking (or stating) if any more of something exist, then you are dealing with the pronoun or adjective forms — not the adverbial “anymore” form. That should make sense because nouns are things. Adverbs are a little trickier because they can modify verbs (hence the name), but they can also modify adjectives. In the sentence “If I were any more relaxed, I’d melt into this chair,” “relaxed” is acting as an adjective, and “any more” is modifying “relaxed,” which makes it an adverb. When “anymore” is a verb-modifying adverb, “anymore” is usually one word (although it can appear as two in this case, as well). In this case, “anymore” refers to the continuation of some action or state of being: “I won’t be working here anymore.” Be careful: “I don’t want to do anymore driving” is incorrect because “driving” here is a noun (technically a gerund), even though it comes from what used to be a verb (“to drive”). The correct usage would be “I don’t want to do any more driving.” (The verb in that sentence is “want.” Watch what happens when we reformulate the sentence so that we modify the verb “want” instead: “I don’t want to drive anymore.” Now it’s not “driving” that is being modified; it’s the action of wanting which is no longer being extended.) My dictionary notes that the verb-modifying adverb version usually appears “with a negative or in question form,” which seems like a helpful hint: “I can’t stand these misspellings anymore!” “Are you going to rollerskate anymore?” Of course, many questions need the form with the space: “I want to put this cheese back in the fridge. Do you want any more?”",
       "illustrations": []
     },
     "awhile": {
       "valid": [
-        {"phrase": "a while", "pos": "n"},
-        {"phrase": "awhile", "pos": "adv"}
+        { "phrase": "a while", "pos": "n" },
+        { "phrase": "awhile", "pos": "adv" }
       ],
       "twoWords": "usually",
       "oneWord": "sometimes",
@@ -80,8 +96,8 @@
     },
     "apart": {
       "valid": [
-        {"phrase": "a part", "pos": "n"},
-        {"phrase": "apart", "pos": ["adv", "adj"]}
+        { "phrase": "a part", "pos": "n" },
+        { "phrase": "apart", "pos": ["adv", "adj"] }
       ],
       "twoWords": "sometimes",
       "oneWord": "sometimes",
@@ -90,9 +106,7 @@
       "illustrations": []
     },
     "alot": {
-      "valid": [
-        {"phrase": "a lot", "pos": "n"}
-      ],
+      "valid": [{ "phrase": "a lot", "pos": "n" }],
       "twoWords": "always",
       "oneWord": "never",
       "hyphenated": "never",
@@ -106,8 +120,8 @@
     },
     "everyday": {
       "valid": [
-        {"phrase": "every day", "pos": ["n", "adv"]},
-        {"phrase": "everyday", "pos": "adj"}
+        { "phrase": "every day", "pos": ["n", "adv"] },
+        { "phrase": "everyday", "pos": "adj" }
       ],
       "twoWords": "usally",
       "oneWord": "rarely",
@@ -121,9 +135,7 @@
       ]
     },
     "noone": {
-      "valid": [
-        {"phrase": "no one", "pos": "n"}
-      ],
+      "valid": [{ "phrase": "no one", "pos": "n" }],
       "twoWords": "always",
       "oneWord": "never",
       "hyphenated": "never",
@@ -131,10 +143,14 @@
     },
     "setup": {
       "valid": [
-        {"phrase": "set up", "pos": "v",
+        {
+          "phrase": "set up",
+          "pos": "v",
           "notes": "Setting up is getting ready. Friends, we’re looking at a verb phrase. Usually, there is an object, which could be a person or thing. “Try to set up your email account yourself.” Setting up can be reflexive, meaning that a person or thing is setting up himself, herself, or itself. “I’m all set up” would indicate that the speaker has (reflexively) prepared himself. “We set up the tent” isn’t reflexive, because the setting up has been done to the tent by someone other than the tent. That sounds strange, but with technology, we can say things like “The wireless access point is setting itself up.”"
         },
-        {"phrase": "setup", "pos": "n",
+        {
+          "phrase": "setup",
+          "pos": "n",
           "notes": "A setup, on the other hand, is a noun. A dictionary notes that this word is informal, but it is nevertheless common. “I like my setup just the way it is. With my room arranged like this, I can enjoy a view of the park from my desk.” A setup is the way in which something has been arranged, organized, or planned — or, even more informally, a scheme or scam intended to deceive or defraud. “It wasn’t me, Chief! It’s a setup! I’ve been framed!”"
         }
       ],
@@ -145,13 +161,19 @@
     },
     "startup": {
       "valid": [
-        {"phrase": "start up", "pos": "v",
+        {
+          "phrase": "start up",
+          "pos": "v",
           "notes": "To start up is to found a company or begin a venture of some sort. “We’re small, but we’re just starting up.” Computers also start up when they are powered on. An engine starts up when it turns over. The Rolling Stones’ hit song “Start Me Up,” which is decidedly not about computers, was used by Microsoft to promote Windows 95. (They skipped the lyric “You make a grown man cry.”)"
         },
-        {"phrase": "start-up", "pos": ["n", "adj"],
+        {
+          "phrase": "start-up",
+          "pos": ["n", "adj"],
           "notes": "A start-up is a new company or business venture: “I am co-founding a start-up.” It can be an adjective, too: “I have acquired enough start-up capital to begin hiring.”"
         },
-        {"phrase": "startup", "pos": "n",
+        {
+          "phrase": "startup",
+          "pos": "n",
           "notes": "The technology start-up industry overwhelmingly prefers the single-word, non-hyphenated spelling, “startup,” when referring to young tech companies. Its usage replaces the hyphenated version entirely. (Despite frequent mis-use, however, the single-word form cannot replace the two-word verb form.)"
         }
       ],

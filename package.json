@@ -1,13 +1,13 @@
 {
   "name": "isitoneword.com",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "fela": "^5.1.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-fela": "^5.2.1",
-    "react-scripts": "1.1.1"
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,5 +16,17 @@
     "eject": "react-scripts eject",
     "publish": "rsync -avz build/ -e ssh ajh@isitoneword.com:isitoneword.com/",
     "deploy": "yarn run build && yarn run publish"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

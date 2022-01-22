@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "fela": "^5.1.1",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-fela": "^5.2.1",
     "react-scripts": "4.0.3"
   },
